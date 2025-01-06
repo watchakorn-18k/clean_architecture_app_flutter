@@ -6,7 +6,6 @@ import 'package:clean_architecture_app/features/user/domain/entities/user.dart'
 import 'package:clean_architecture_app/core/database/app_database.dart'
     as app_db;
 import 'package:clean_architecture_app/features/user/domain/repositories/user_repository.dart';
-import 'package:flutter/foundation.dart';
 
 class UserRepositoryImpl implements UserRepository {
   final app_db.AppDatabase database;
